@@ -20,7 +20,7 @@ If you picked the non-real-time collaboration plugins:
 
 Changes like changing toolbar items, changing order of icons or customizing plugin configurations should be relatively easy to make. Open the `sample/index.html` file and edit the script that initialized the CKEditor 5. Save the file and refresh the browser. That's all.
 
-*Note:* If you have any problems with browser caching use the `Ctrl + R` or `Cmd + R` shortcut depending on your system.
+_Note:_ If you have any problems with browser caching use the `Ctrl + R` or `Cmd + R` shortcut depending on your system.
 
 However if you want to remove or add a plugin to the build you need to follow the next step of this guide.
 
@@ -50,11 +50,26 @@ npm run build
 
 This will build the CKEditor 5 to the `build` directory. You can open your browser and you should be able to see the changes you've made in the code. If not, then try to refresh also the browser cache by typing `Ctrl + R` or `Cmd + R` depending on your system.
 
+## Example
+
+```jsx
+import React from "react";
+import { CKEditor } from "@ckeditor/ckeditor5-react";
+import ClassicEditor from "ckeditor5-build-image-source-editing";
+
+const App = () => {
+	return <CKEditor editor={ClassicEditor} />;
+};
+
+export default App;
+```
+
 ## What's next?
 
 Follow the guides available on https://ckeditor.com/docs/ckeditor5/latest/framework/index.html and enjoy the document editing.
 
 ## FAQ
+
 | Where is the place to report bugs and feature requests?
 
 You can create an issue on https://github.com/ckeditor/ckeditor5/issues including the build id - `bc5mp1wyif4b-w3448ywlihz`. Make sure that the question / problem is unique, please look for a possibly asked questions in the search box. Duplicates will be closed.
