@@ -215,4 +215,4 @@ Editor.defaultConfig = {
 	},
 };
 
-export default Editor;
+export default { Editor, EditorWatchdog };
