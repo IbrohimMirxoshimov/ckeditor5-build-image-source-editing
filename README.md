@@ -55,10 +55,10 @@ This will build the CKEditor 5 to the `build` directory. You can open your brows
 ```jsx
 import React from "react";
 import { CKEditor } from "@ckeditor/ckeditor5-react";
-import ClassicEditor from "ckeditor5-build-image-source-editing";
+import { Editor } from "ckeditor5-build-image-source-editing";
 
 const App = () => {
-	return <CKEditor editor={ClassicEditor} />;
+	return <CKEditor editor={Editor} />;
 };
 
 export default App;
