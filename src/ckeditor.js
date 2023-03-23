@@ -38,23 +38,12 @@ import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic.js';
 import Link from '@ckeditor/ckeditor5-link/src/link.js';
 import LinkImage from '@ckeditor/ckeditor5-link/src/linkimage.js';
 import List from '@ckeditor/ckeditor5-list/src/list.js';
-import ListProperties from '@ckeditor/ckeditor5-list/src/listproperties.js';
-import Markdown from '@ckeditor/ckeditor5-markdown-gfm/src/markdown.js';
 import MediaEmbed from '@ckeditor/ckeditor5-media-embed/src/mediaembed.js';
 import MediaEmbedToolbar from '@ckeditor/ckeditor5-media-embed/src/mediaembedtoolbar.js';
-import Mention from '@ckeditor/ckeditor5-mention/src/mention.js';
 import PageBreak from '@ckeditor/ckeditor5-page-break/src/pagebreak.js';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph.js';
 import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefromoffice.js';
-import RemoveFormat from '@ckeditor/ckeditor5-remove-format/src/removeformat.js';
 import SourceEditing from '@ckeditor/ckeditor5-source-editing/src/sourceediting.js';
-import SpecialCharacters from '@ckeditor/ckeditor5-special-characters/src/specialcharacters.js';
-import SpecialCharactersArrows from '@ckeditor/ckeditor5-special-characters/src/specialcharactersarrows.js';
-import SpecialCharactersCurrency from '@ckeditor/ckeditor5-special-characters/src/specialcharacterscurrency.js';
-import SpecialCharactersEssentials from '@ckeditor/ckeditor5-special-characters/src/specialcharactersessentials.js';
-import SpecialCharactersLatin from '@ckeditor/ckeditor5-special-characters/src/specialcharacterslatin.js';
-import SpecialCharactersMathematical from '@ckeditor/ckeditor5-special-characters/src/specialcharactersmathematical.js';
-import SpecialCharactersText from '@ckeditor/ckeditor5-special-characters/src/specialcharacterstext.js';
 import StandardEditingMode from '@ckeditor/ckeditor5-restricted-editing/src/standardeditingmode.js';
 import Strikethrough from '@ckeditor/ckeditor5-basic-styles/src/strikethrough.js';
 import Style from '@ckeditor/ckeditor5-style/src/style.js';
@@ -111,23 +100,12 @@ Editor.builtinPlugins = [
 	Link,
 	LinkImage,
 	List,
-	ListProperties,
-	Markdown,
 	MediaEmbed,
 	MediaEmbedToolbar,
-	Mention,
 	PageBreak,
 	Paragraph,
 	PasteFromOffice,
-	RemoveFormat,
 	SourceEditing,
-	SpecialCharacters,
-	SpecialCharactersArrows,
-	SpecialCharactersCurrency,
-	SpecialCharactersEssentials,
-	SpecialCharactersLatin,
-	SpecialCharactersMathematical,
-	SpecialCharactersText,
 	StandardEditingMode,
 	Strikethrough,
 	Style,
@@ -179,14 +157,12 @@ Editor.defaultConfig = {
 			'highlight',
 			'imageInsert',
 			'pageBreak',
-			'removeFormat',
 			'restrictedEditingException',
 			'superscript',
 			'subscript',
 			'style',
 			'textPartLanguage',
 			'todoList',
-			'specialCharacters',
 			'findAndReplace'
 		]
 	},
